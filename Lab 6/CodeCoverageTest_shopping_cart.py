@@ -67,3 +67,4 @@ def test_shipping_fee_express_prime():
 def test_shipping_fee_express_non_prime():
     # express adds 100 -> fee = 0 + 100 = 100
     assert shipping_fee(600, False, True) == 100
+

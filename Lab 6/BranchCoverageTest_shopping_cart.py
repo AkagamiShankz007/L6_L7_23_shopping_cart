@@ -149,3 +149,4 @@ def test_shipping_fee_express_non_prime_standard_tier():
 def test_shipping_fee_standard_non_express_prime():
     # is_express is False -> inner prime check bypassed
     assert shipping_fee(1000, True, False) == 0
+

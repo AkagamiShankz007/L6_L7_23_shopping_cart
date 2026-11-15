@@ -21,3 +21,4 @@ def test_delivery_zone_no_crash(s):
         delivery_zone(s)
     except Exception as e:
         assert False, f"delivery_zone crashed with: {e}"
+
